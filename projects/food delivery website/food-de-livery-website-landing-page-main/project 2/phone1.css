@@ -1,0 +1,161 @@
+*{
+    
+}
+/* Navigation Menu */
+.navbar{
+    overflow: hidden;
+    flex-direction: column;
+}
+
+
+.navbar img{
+   display: block;
+   margin: auto;
+   width: 105px;
+}
+.navbar img:hover{
+   
+}
+.navbar .navigation{
+    display: flex;
+    overflow: hidden;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar form{
+    
+}
+.navbar form input{
+    padding: 7px 0px;
+    padding-left: 10px;
+    padding-right: 48px;
+    border-radius: 13px;
+    margin-left: -30px;
+}
+
+.navbar ul{
+    /* margin-top: 19px; */
+}
+.navbar li{
+    margin: 2px 0px;
+    margin-top: 10px;
+}
+.navbar a{
+    margin: 0px 10px;
+}
+.navbar a:hover{
+
+}
+/* Home Section */
+#home{
+    height: 35vh;
+}
+#home::before{
+    
+    height: 80vh;
+    
+}
+#heading{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+#p1{
+    margin: 0px 10px
+}
+#p2{
+    margin: 0px 10px
+}
+.btn{
+    
+    margin-top: 80px;
+}
+.btn:hover{
+    
+}
+/* Services section */
+.center{
+    
+}
+#services .container{
+    flex-wrap: wrap;
+    padding: 0px 2px;
+    margin-bottom: 45px;
+}
+#services .primaryheading{
+    margin-top: 190px;
+
+}
+
+#services .box{
+    
+
+    
+}
+#services .box:hover{
+    
+}
+#services .box img{
+    
+}
+
+#services .box .secondaryheading{
+    
+}
+#services .box .secondaryheading a{
+    
+    
+}
+#services .box .secondaryheading a:hover{
+  
+    
+    
+}
+#services .box .p3{
+   
+}
+/* Our Clients */
+#clients{
+    overflow: hidden;
+}
+#clients::before{
+    
+}
+    #clients .primaryheading{
+        
+        margin-top: 0px;
+        position: relative;
+        top: -100px;
+
+    }
+#clients img{
+    height: 170px;
+}
+/* Contact Us */
+#contact{
+
+
+}
+#contact::before{
+    
+
+    
+}
+#contact .primaryheading{
+    
+}
+#contact .form-box{
+}
+#contact input , #contact textarea{
+
+   
+
+} 
+/* Footer */
+footer{
+   
+}
+

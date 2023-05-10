@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Navigation Menu */
+.navbar{
+    display: flex;
+    /* border: 2px solid red; */
+    border-radius: 12px;
+    font-family: 'Electrolize', sans-serif;
+    /* opacity: 0.9; */
+    font-weight: bolder;
+    background-color: unset
+    
+}
+
+
+.navbar img{
+    width: 95px;
+    transition: all 1s ease-in-out;
+}
+.navbar img:hover{
+    transform: rotate(360deg);
+}
+
+.navbar form{
+    margin-top: 16px;
+    margin-left: 70px;
+}
+.navbar form input{
+    padding: 7px 87px;
+    padding-left: 8px;
+    padding-right: 155px;
+    border-radius: 13px;
+}
+.navbar ul{
+    display: flex;
+    margin-top: 12px;
+}
+.navbar li{
+    list-style: none;
+    margin: 7px 4px;
+    margin-left: 17px;
+}
+.navbar a{
+    text-decoration: none;
+    margin: 0px 45px;
+    padding: 3px 9px;
+    font-size: 18px;
+    color: oldlace;
+}
+.navbar a:hover{
+color: grey;
+}
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    margin: 2px 3px;
+    padding: 2px 3px;
+    align-items: center;
+    justify-content: center;
+    height: 55vh;
+}
+#home::before{
+    content: "";
+    background: url(./bg2.jpg) no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    opacity:0.88 ;
+
+    
+}
+#heading{
+    color: ivory;
+    font-size: 60px;
+    margin-top: 85px;
+    font-family: 'Monoton', cursive;
+
+}
+#p1{
+    padding-top: 25px;
+    font-size: 15px;
+    color: ivory;
+    font-family: 'Sansita Swashed', cursive;
+}
+#p2{
+    padding-top: 4px;
+    font-size: 15px;
+    color: ivory;
+    font-family: 'Sansita Swashed', cursive;
+}
+.btn{
+    cursor: pointer;
+    margin-top: 25px;
+    padding: 10px 50px;
+    font-size: 13px;
+    background-color: brown;
+    color: ivory;
+    border-radius: 15px
+}
+.btn:hover{
+    background-color: rgb(105, 43, 43);
+}
+/* Services section */
+.center{
+    text-align: center;
+}
+#services .container{
+    display: flex;
+    margin: 0px 2px;
+    margin-bottom: 20px;
+    
+
+}
+#services .primaryheading{
+    margin-top: 165px;
+    margin-bottom: 21px;
+    font-size: 45px;
+    font-family: 'Electrolize', sans-serif;
+
+}
+
+#services .box{
+    
+    border: 2px solid brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 22px;
+    margin: 0px 2px;
+    background-color: lightgoldenrodyellow;
+    
+}
+#services .box:hover{
+    background-color:white;
+}
+#services .box img{
+    height: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 22px;
+    margin-bottom: 35px;
+}
+
+#services .box .secondaryheading{
+    font-size: 30px;
+}
+#services .box .secondaryheading a{
+    text-decoration: none;
+    color: maroon;
+    font-family: 'Electrolize', sans-serif;
+    
+}
+#services .box .secondaryheading a:hover{
+  color: rgb(131, 89, 89);
+    
+    
+}
+#services .box .p3{
+    text-align: center;
+    padding: 20px 15px;
+    font-size: 20px;
+    font-family: 'Sansita Swashed', cursive;
+}
+/* Our Clients */
+#clients{
+    display: flex;
+    /* border: 2px solid maroon; */
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    margin: 2px 2px;
+}
+#clients::before{
+    content: "";
+    background: url(./bg3.jpg) no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 60vh;
+    opacity: 0.58;
+}
+    #clients .primaryheading{
+        font-size: 45px;
+        font-family: 'Electrolize', sans-serif;
+        padding-top: 30px;
+        margin-top: 90px;
+        color: midnightblue;
+
+
+    }
+#clients img{
+    display: block;
+    height: 420px;
+    margin: auto;
+    padding-bottom: 20px;
+    top: -50px;
+    position: relative;
+}
+/* Contact Us */
+#contact{
+display: flex;
+/* border: 2px solid red; */
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 100%;
+position: relative;
+
+}
+#contact::before{
+    content: "";
+    background: url(./bg4.jpg) no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 66vh;
+    opacity: 0.58;
+
+    
+}
+#contact .primaryheading{
+    margin: 13px 5px;
+    font-size: 40px;
+    font-family: 'Electrolize', sans-serif;
+}
+#contact .form-box{
+    display: flex;
+        align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+#contact input , #contact textarea{
+
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-family: 'Sansita Swashed', cursive;
+    
+} 
+/* Footer */
+footer{
+    background-color: black;
+    color: white
+    ;
+}
+

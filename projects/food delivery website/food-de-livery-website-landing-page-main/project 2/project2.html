@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyOnlineMeal.com</title>
+    <link rel="stylesheet" href="project2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Monoton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div>
+                <img src="./logo.png" alt="MyOnlineMeal.com">
+            </div>
+            <div class="form">
+                <form action="backend.php">
+                    <input type="search" name="Search" id="" placeholder="Search">
+                </form>
+            </div>
+            <ul>
+                <li class="items"><a href="#home">Home</a></li>
+                <li class="items"><a href="#services">Services</a></li>
+                <li class="items"><a href="#clients">Our Clients</a></li>
+                <li class="items"><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1 id="heading">Welcome to MyOnlineMeal</h1>
+        <p id="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit doloribus minima hic laborum commodi
+            quae iste rem facilis, a totam suscipit eaque enim architecto iusto quos nesciunt</p>
+        <p id="p2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor alias, sequi ut facere quisquam
+            ipsum? </p>
+        <button class="btn">Order Now</button>
+    </section>
+    <section id="services">
+        <h1 class="center primaryheading">| Our Services |</h1>
+        <div class="container">
+            <div class="box">
+                <img src="./order.png" alt="MyOnlineMeal">
+
+                <h3 class="center secondaryheading"> <a href="#"> Food Ordering </a></h3>
+
+                <p class="p3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem cupiditate tempore
+                    repellendus quaerat dolore, expedita consequuntur</p>
+            </div>
+            <div class="box">
+                <img src="./cater.png" alt="MyOnlineMeal">
+
+                <h3 class="center secondaryheading"> <a href="#"> Food Catering </a></h3>
+
+                <p class="p3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem cupiditate tempore
+                    repellendus quaerat dolore, expedita consequuntur</p>
+            </div>
+            <div class="box">
+                <img src="./delivery.png" alt="MyOnlineMeal">
+
+                <h3 class="center secondaryheading"> <a href="#"> Food Delivery </a></h3>
+
+                <p class="p3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem cupiditate tempore
+                    repellendus quaerat dolore, expedita consequuntur</p>
+            </div>
+        </div>
+    </section>
+    <section id="clients">
+        <h1 class="center primaryheading">| Our Clients |</h1>
+        <div>
+            <img src="./clients.png" alt="MyOnlineMeal">
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="center primaryheading">| Contact Us |</h1>
+        <div class="form-box">
+        <div class="form-group">
+            <form action="backend.php">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="number">Number:</label>
+                    <input type="number" name="number" id="number" placeholder="Enter your number">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.MyonlineMeal.com. All rigths reserved!
+        </div>
+    </footer>
+</body>
+
+</html>
